@@ -1,4 +1,6 @@
-class Player{
+import {Card} from './Card.ts';
+
+export class Player{
 
     private hand: Card[] = [];
     private score: number = 0;

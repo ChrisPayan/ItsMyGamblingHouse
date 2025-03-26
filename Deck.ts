@@ -1,4 +1,6 @@
-class Deck{
+import {Card} from './Card.ts';
+
+export class Deck{
 
     private cards: Card[] = [];
 
